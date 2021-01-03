@@ -27,4 +27,4 @@ describe("the greetFriend(name) function", function() {
     }
   })
 
-})
+}) 
