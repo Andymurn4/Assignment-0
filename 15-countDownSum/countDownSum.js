@@ -1,12 +1,11 @@
 class MySolution {
   countDownSum(num) {
     // Insert code here;
-    let res = 0;
-    for(let i = num; i>=1; i--){
-      res +=i;
-
-    }
-    return res;
+    if (num <= 1)
+      return num;
+    else
+      return num + this.countDownSum(num - 1)
+   
   }
   
 }
